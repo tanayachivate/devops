@@ -18,4 +18,4 @@ fi
 docker image build -t myserver .
 
 # start the container
-docker container run -itd -p 4000:4000 --name myserver_con myserver
+docker container run -itd -p 6001:4444 --name myserver_con myserver
